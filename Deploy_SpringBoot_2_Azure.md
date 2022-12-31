@@ -44,9 +44,13 @@ Deployments (Blue-green)
 
 A jar file!
 
-#### Method 1: manual pipeline with Azure CLI and Maven plugin (not recommended)
+#### Method 1: manual pipeline with Azure CLI and Maven plugin etc. (not recommended)
 
-#### Method 2: automate pipeline with GitHub actions (recommended)
+Quickstart: Deploy your first application to Azure Spring Apps
+
+<https://learn.microsoft.com/en-us/azure/spring-apps/quickstart?tabs=Azure-CLI>
+
+#### Method 2: automate pipeline with GitHub actions or similar tools (recommended)
 
 GitHub secrets
 
@@ -90,8 +94,10 @@ jobs:
           package: ${{ env.ASC_PACKAGE_PATH }}/**/*.jar
 ```
 
-## Manually do steps by steps (not recommended)
+### Post-deployment verifications
 
-Quickstart: Deploy your first application to Azure Spring Apps
+URL
 
-<https://learn.microsoft.com/en-us/azure/spring-apps/quickstart?tabs=Azure-CLI>
+Test endpoint
+
+![1672450048206](image/Deploy_SpringBoot_2_Azure/1672450048206.png)
