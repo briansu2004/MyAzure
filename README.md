@@ -46,6 +46,8 @@ Built a knowledge-based ontology graph database application for a federal client
 
 ### How to deploy a Spring Boot app to Azure
 
+[Deploy a Spring Boot app to Azure](Deploy_SpringBoot_2_Azure.md)
+
 ## Misc
 
 ### Azure DevOps
