@@ -48,6 +48,8 @@ A jar file!
 
 #### Method 2: automate pipeline with GitHub actions (recommended)
 
+GitHub secrets
+
 ```yml
 name: AzureSpringCloud
 on: push
