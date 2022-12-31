@@ -94,6 +94,29 @@ jobs:
           package: ${{ env.ASC_PACKAGE_PATH }}/**/*.jar
 ```
 
+### Database
+
+[SpringBoot part]
+
+resource/application-prod.yml
+
+```yml
+spring:
+  datasource:
+    url: jdbc:postgresql://${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME}
+    username: ${PROD_DB_USERNAME}
+    password: ${PROD_DB_PASSWORD}
+    name: spring-blog
+
+  sql:
+    init:
+      mode: always # you won't do this in prod, I'm just doing this for demo purposes
+```
+
+[Azure part]
+
+![1672450199302](image/Deploy_SpringBoot_2_Azure/1672450199302.png)
+
 ### Post-deployment verifications
 
 URL
