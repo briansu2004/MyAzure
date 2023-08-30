@@ -60,7 +60,7 @@ on: push
 env:
   ASC_PACKAGE_PATH: ${{ github.workspace }}
   JAVA_VERSION: 17
-  AZURE_SUBSCRIPTION: c70085e6-c3ce-4d50-b40c-d03cb762d680
+  AZURE_SUBSCRIPTION: ${{ env.AZURE_SUBSCRIPTION }}
 
 jobs:
   deploy_to_production:
@@ -110,7 +110,7 @@ spring:
 
   sql:
     init:
-      mode: always # you won't do this in prod, I'm just doing this for demo purposes
+      mode: always # demo only; not for prod
 ```
 
 [Azure part]
