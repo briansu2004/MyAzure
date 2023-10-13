@@ -4,9 +4,23 @@ My Azure
 
 ## My Azure Projects
 
+### Project 5
+
+Created Full Stack REST APIs (backend) and VUE (front-end) apps to manage Dask Kubernetes Clusters and deployed to Azure
+
+<!-- for Hatfield-->
+
+    - Coded the functions to manage Dask Kubernetes Clusters with Go and Python.
+    - Monitored the Clusters with Kubectl and dashboard.
+    - Programmed REST APIs with Go.
+    - Built the UI with VUE and Vuetify.
+    - Containerized the backend API app and UI app with Docker, managed with Azure ACR repository, deployed to Azure AKS and then exposed the API to a public IP.
+
 ### Project 4
 
-Created REST APIs for a new web app and deployed to Azure Cloud for RBC
+Created REST APIs for a new web app and deployed to Azure Cloud
+
+<!-- for RBC / a large bank -->
 
 - Programmed REST APIs with Java, Spring Boot, Hibernate, Azure SQL, GitHub, Gradle, Redis, Docker, JSON, Postman and sidecar.
 - Performed unit tests with Mockito test framework.
@@ -17,7 +31,9 @@ Created REST APIs for a new web app and deployed to Azure Cloud for RBC
 
 ### Project 3
 
-Built a new web app and a new tablet app and deployed to Azure Cloud for Ministry of Transportation and Mistry of Labour, Immigration, Training and Skills Development
+Built a new web app and a new tablet app and deployed to Azure Cloud
+
+<!-- for Ministry of Transportation and Mistry of Labour, Immigration, Training and Skills Development -->
 
 - For the offline mode tablet device app, built the backend REST APIs with .Net, C#, LINQ, Entity Framework; created the responsive front-end UI with .NET MAUI, Telerik UI and DevTools to follow the Zeplin wireframes; and persisted data in SQLite.
 - For the online web app, created the backend REST APIs with .Net, C#, LINQ, Entity Framework; built the responsive front-end UI with Blazor, Telerik UI and DevTools to follow the Zeplin designs; and persisted data in Azure SQL database.
@@ -27,7 +43,9 @@ Built a new web app and a new tablet app and deployed to Azure Cloud for Ministr
 
 ### Project 2
 
-Created a progressive web application for a federal government client
+Created a progressive web application with Azure DevOps
+
+<!-- for CBSA / a federal government client -->
 
 - Built a new web application with React, TypeScript, Material UI, Router, i18n, axios, formik, lodash and S3 on front-end, Node.js, winstone, dotenv, AWS Lambda functions, Amazon API Gateway, Aurora PostgreSQL on middle and back end.
 - Used CI/CD pipelines for different projects with Azure DevOps and AWS CloudFormation, CloudBuild, CodeCommit, CodePipeline.
@@ -36,20 +54,18 @@ Created a progressive web application for a federal government client
 
 ### Project 1
 
-Built a knowledge-based ontology graph database application for a federal client
+Built a knowledge-based ontology graph database application
+
+<!-- for GAC / a federal client -->
 
 - Converted relational data model to Graph data model and imported to Neo4j.
 - Used Python NLP libraries and Azure Cognitive Services APIs to analyse data, extracted entities, key phrases, and categories, then do sentiment analysis with data science algorithms in Jupyter Notebook.
 - Visualized the ontology knowledge graphs with Neo4j Bloom and search phrases.
 
-## My Azure solutions
-
-### How to deploy a Spring Boot app to Azure
+## Misc
 
 [Deploy a Spring Boot app to Azure](Deploy_SpringBoot_2_Azure.md)
 
-## Misc
-
-### Azure DevOps
+## Azure DevOps
 
 [Azure DevOps](AzureDevOps/README.md)
