@@ -1,5 +1,14 @@
 # How to deploy a Spring Boot app to Azure
 
+- [Prerequsites](#prerequsites)
+  - [Create a resource group](#create-a-resource-group)
+  - [Create an "Azure Spring App"](#create-an-azure-spring-app)
+  - [Create the artifact](#create-the-artifact)
+    - [Method 1: manual pipeline with Azure CLI and Maven plugin etc. (not recommended)](#method-1-manual-pipeline-with-azure-cli-and-maven-plugin-etc-not-recommended)
+    - [Method 2: automate pipeline with GitHub actions or similar tools (recommended)](#method-2-automate-pipeline-with-github-actions-or-similar-tools-recommended)
+  - [Database](#database)
+  - [Post-deployment verifications](#post-deployment-verifications)
+
 ## Prerequsites
 
 ### Create a resource group

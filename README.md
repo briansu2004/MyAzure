@@ -1,10 +1,8 @@
-# MyAzure
-
-My Azure
+# My Azure
 
 ## My Azure Projects
 
-### Project 5
+### Project 6
 
 Created Full Stack REST APIs (backend) and VUE (front-end) apps to manage Dask Kubernetes Clusters and deployed to Azure
 
@@ -16,7 +14,7 @@ Created Full Stack REST APIs (backend) and VUE (front-end) apps to manage Dask K
     - Built the UI with VUE and Vuetify.
     - Containerized the backend API app and UI app with Docker, managed with Azure ACR repository, deployed to Azure AKS and then exposed the API to a public IP.
 
-### Project 4
+### Project 5
 
 Created REST APIs for a new web app and deployed to Azure Cloud
 
@@ -29,7 +27,7 @@ Created REST APIs for a new web app and deployed to Azure Cloud
 - Onboard the endpoints to the Apigee API gateway.
 - Monitored with Splunk and Dynatrace.
 
-### Project 3
+### Project 4
 
 Built a new web app and a new tablet app and deployed to Azure Cloud
 
@@ -41,7 +39,7 @@ Built a new web app and a new tablet app and deployed to Azure Cloud
 - Automated the integration testing with Postman and Azure Data Studio.
 - Managed code repositories with Git and Azure DevOps.
 
-### Project 2
+### Project 3
 
 Created a progressive web application with Azure DevOps
 
@@ -52,7 +50,7 @@ Created a progressive web application with Azure DevOps
 - Created UI/UX mockups and wireframes with Balsamiq Studio.
 - Created an Azure DevOps organization and an Azure DevOps project; Integrated Azure Repos with the DevOps project and Azure boards; Created a CI/CD pipeline for the React application (Build, staging and production); Used Azure test and feedback tool to identify and create work items (bugs) and manual testing with Azure Test Plans; Created a dashboard for an overview of the DevOps project.
 
-### Project 1
+### Project 2
 
 Built a knowledge-based ontology graph database application
 
@@ -62,10 +60,21 @@ Built a knowledge-based ontology graph database application
 - Used Python NLP libraries and Azure Cognitive Services APIs to analyse data, extracted entities, key phrases, and categories, then do sentiment analysis with data science algorithms in Jupyter Notebook.
 - Visualized the ontology knowledge graphs with Neo4j Bloom and search phrases.
 
-## Misc
+### Project 1
 
-[Deploy a Spring Boot app to Azure](Deploy_SpringBoot_2_Azure.md)
+<!-- for Canada Post / Accenture -->
 
-## Azure DevOps
+On-Premises Data Platform Migration to Azure HDInsight
 
-[Azure DevOps](AzureDevOps/README.md)
+- **Objective**: Led the migration of an on-premises data platform to Azure HDInsight, transforming a legacy system that included **DB2**, **SAP**, and **Enterprise Data Warehouse (EDW)** applications into a modern cloud-based architecture.
+- **Technology Stack**: Azure HDInsight, **Azure SQL**, **Azure Data Factory** (ADF), DB2, SAP.
+- **Key Responsibilities**:
+  - Architected the migration process, ensuring seamless transition of data and applications from the legacy system to the cloud.
+  - Utilized **Azure Data Factory** for orchestrating and automating the migration of large-scale data from on-premises databases to **Azure SQL**.
+  - Optimized data pipelines to ensure efficient data flow and integration between legacy systems and the new Azure-based infrastructure.
+  - Ensured data consistency, reliability, and performance through thorough testing and validation post-migration.
+  - Collaborated with cross-functional teams to implement best practices and maintain the integrity of critical data throughout the migration process.
+
+## [Deploy a Spring Boot app to Azure](Deploy_SpringBoot_2_Azure.md)
+
+## [Azure DevOps](AzureDevOps/README.md)
