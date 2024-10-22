@@ -1,5 +1,15 @@
 # My Azure
 
+- [My Azure Projects](#my-azure-projects)
+  - [Project 6](#project-6)
+  - [Project 5](#project-5)
+  - [Project 4](#project-4)
+  - [Project 3](#project-3)
+  - [Project 2](#project-2)
+  - [Project 1](#project-1)
+- [Deploy a Spring Boot app to Azure](#deploy-a-spring-boot-app-to-azure)
+- [Azure DevOps](#azure-devops)
+
 ## My Azure Projects
 
 ### Project 6
@@ -8,11 +18,11 @@ Created Full Stack REST APIs (backend) and VUE (front-end) apps to manage Dask K
 
 <!-- for Hatfield-->
 
-    - Coded the functions to manage Dask Kubernetes Clusters with Go and Python.
-    - Monitored the Clusters with Kubectl and dashboard.
-    - Programmed REST APIs with Go.
-    - Built the UI with VUE and Vuetify.
-    - Containerized the backend API app and UI app with Docker, managed with Azure ACR repository, deployed to Azure AKS and then exposed the API to a public IP.
+- Coded the functions to manage Dask Kubernetes Clusters with Go and Python.
+- Monitored the Clusters with Kubectl and dashboard.
+- Programmed REST APIs with Go.
+- Built the UI with VUE and Vuetify.
+- Containerized the backend API app and UI app with Docker, managed with Azure ACR repository, deployed to Azure AKS and then exposed the API to a public IP.
 
 ### Project 5
 
