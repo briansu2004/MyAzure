@@ -36,3 +36,9 @@ The most popular Azure certifications, highly recognized in the industry, focus 
 - Targets professionals developing IoT solutions in Azure, covering device integration, processing IoT data, and monitoring solutions.
 
 These certifications are widely sought after and can help boost your career in cloud computing and Azure technology roles.
+
+## AZ 305
+
+Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions
+
+<https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/>
