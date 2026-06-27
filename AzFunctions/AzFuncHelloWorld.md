@@ -1,12 +1,13 @@
-# Quickstart: Azure Functions (Windows 11 + Node.js + TypeScript)
+# Quickstart: Azure Functions (Windows 11 + Node.js)
 
 - [**1. Prepare Your Azure Account**](#1-prepare-your-azure-account)
 - [**2. Install Azure CLI**](#2-install-azure-cli)
 - [**3. Install Azure Functions Core Tools**](#3-install-azure-functions-core-tools)
 - [**4. Initialize a Function App Project**](#4-initialize-a-function-app-project)
-- [**5. Start the Local Function Host**](#5-start-the-local-function-host)
-- [**6. (Optional but Recommended) Create a Function Trigger**](#6-optional-but-recommended-create-a-function-trigger)
-- [**7. (Optional) Test the Function Locally**](#7-optional-test-the-function-locally)
+- [**5. (Optional but Recommended) Create a Function Trigger**](#5-optional-but-recommended-create-a-function-trigger)
+- [**6. Build**](#6-build)
+- [**7. Start the Local Function Host**](#7-start-the-local-function-host)
+- [**8. (Optional) Test the Function Locally**](#8-optional-test-the-function-locally)
 
 <!-- The following are detailed one-by-one quickstart Azure Functioin steps.
 
@@ -36,7 +37,7 @@ Note: for demo purpose, use Windows 11 and NodeJS
 
 ![1782570784729](image/AzFuncHelloWorld/1782570784729.png)
 
-- Note: for demo purpose, this quickstarts uses Windows 11, NodeJS and Typescript - download and install NodeJS if needed.
+- Note: for demo purpose, this quickstarts uses Windows 11 and NodeJS - download and install NodeJS if needed.
 
 ---
 
@@ -72,6 +73,7 @@ func --version
 
 Create a new Azure Functions project:
 
+<!--
 ```dos
 func init myfuncapp --javascript
 ```
@@ -80,11 +82,39 @@ Or for TypeScript:
 
 ```dos
 func init myfuncapp --typescript
+``` -->
+
+```dos
+md az-func-hello-world-ts
+cd az-func-hello-world-ts
+func init . --typescript --model V4
 ```
+
+![1782587046802](image/AzFuncHelloWorld/1782587046802.png)
 
 ---
 
-## **5. Start the Local Function Host**
+## **5. (Optional but Recommended) Create a Function Trigger**
+
+Example: HTTP trigger
+
+```dos
+func new --name SubmitApplication --template "HTTP trigger" --authlevel "function"
+```
+
+![1782587089057](image/AzFuncHelloWorld/1782587089057.png)
+
+---
+
+## **6. Build**
+
+```dos
+npm run build
+```
+
+![1782587120000](image/AzFuncHelloWorld/1782587120000.png)
+
+## **7. Start the Local Function Host**
 
 Run the project locally:
 
@@ -94,32 +124,16 @@ func start
 
 This launches the Azure Functions runtime on your machine and exposes local endpoints for testing.
 
----
-
-## **6. (Optional but Recommended) Create a Function Trigger**
-
-Example: HTTP trigger
-
-```dos
-func new --name HttpDemo --template "HTTP trigger"
-```
+![1782587162006](image/AzFuncHelloWorld/1782587162006.png)
 
 ---
 
-## **7. (Optional) Test the Function Locally**
+## **8. (Optional) Test the Function Locally**
 
 Use browser or curl:
 
 ```dos
-curl http://localhost:7071/api/HttpDemo
+curl http://localhost:7071/api/SubmitApplication
 ```
 
-<!-- ---
-
-If you want, I can also prepare:
-
-- **Quickstart: Azure Functions + Event Hub Trigger**
-- **Quickstart: Azure Functions + Durable Functions (Orchestrator)**
-- **Quickstart: Azure Functions for ML model inference (perfect for CMHC)**
-
-Just tell me which one you want next. -->
+![1782587195703](image/AzFuncHelloWorld/1782587195703.png)

@@ -1,0 +1,11 @@
+{
+    "snyk.advanced.organization": "155c1f79-8be2-4aa4-b734-1d347abb8c72",
+    "snyk.advanced.autoSelectOrganization": true,
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune (functions)"
+}

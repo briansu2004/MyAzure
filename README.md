@@ -137,6 +137,8 @@ On-Premises Data Platform Migration to Azure HDInsight
 
 ## Azure Fuctions
 
+[Quickstart: Azure Functions (Windows 11 + Node.js)](AzFunctions/AzFuncHelloWorld.md)
+
 ## [Deploy a Spring Boot app to Azure](Deploy_SpringBoot_2_Azure.md)
 
 ## [Azure DevOps](AzureDevOps/README.md)
