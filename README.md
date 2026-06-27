@@ -1,16 +1,66 @@
 # My Azure
 
 - [My Azure Projects](#my-azure-projects)
+  - [Project 10](#project-10)
+  - [Project 9](#project-9)
+  - [Project 8](#project-8)
+  - [Project 7](#project-7)
   - [Project 6](#project-6)
   - [Project 5](#project-5)
   - [Project 4](#project-4)
   - [Project 3](#project-3)
   - [Project 2](#project-2)
   - [Project 1](#project-1)
+- [Azure Fuctions](#azure-fuctions)
 - [Deploy a Spring Boot app to Azure](#deploy-a-spring-boot-app-to-azure)
 - [Azure DevOps](#azure-devops)
 
 ## My Azure Projects
+
+### Project 10
+
+<!-- MOH -->
+
+Worked on many C# .NET Blazor/Web API applications.
+
+- Built a web app for Settlement Process Automation & Modernization.
+- Process Transformation: Led the digital transformation of a manual, Excel-based settlement letter process into a modern, automated web application, significantly reducing operational risk and processing time.
+- Full Stack Architecture: Engineered a robust service-oriented backend using C# .NET Core and Entity Framework, coupled with a rich, responsive frontend interface built with Blazor, DevExpress, JavaScript, and Bootstrap.
+- Cloud & Data Implementation: Designed the persistence layer using Azure MS SQL Server for transactional data and integrated Azure Blob Storage to securely store and retrieve generated settlement documents and static files.
+- DevOps & Security: Established Azure DevOps CI/CD pipelines to enforce automated quality gates, including unit and integration testing and CVE vulnerability scans, ensuring a secure and compliant deployment process.
+- Agile Delivery: Managed the development lifecycle using Git, Azure Boards (Work Items), and structured Pull Request (PR) reviews to ensure code quality and alignment with business requirements.
+
+### Project 9
+
+<!-- MOH -->
+
+Modernized multiple legacy web applications.
+
+- Legacy Transformation: Led the end-to-end modernization of legacy systems into a scalable, cloud-native architecture, directly addressing technical debt and improving system reliability.
+- Backend Development: Architected and developed robust backend services using C# .NET Core and Entity Framework, ensuring high performance, security, and seamless data integrity.
+- Frontend Implementation: Designed and built a responsive, user-friendly interface using Blazor, DevExpress, JavaScript, and Bootstrap, enhancing user experience across devices.
+- Cloud & DevOps: Established comprehensive Azure DevOps pipelines for CI/CD, automating builds, unit and integration testing, and CVE vulnerability scanning to ensure secure and rapid deployment. Managed agile workflows through Git, Work Items, and rigorous Pull Request reviews.
+- Data & Storage: Managed the data layer using Azure MS SQL Server for relational data and implemented Azure Blob Storage for secure management of static assets and file uploads.
+- Reporting: Integrated PowerBI to generate dynamic reports and visualizations, providing stakeholders with actionable data insights.
+
+### Project 8
+
+<!-- SatasCan -->
+
+Authentication Architecture Update:
+
+Adapted to upstream changes in the app's authentication system, transitioning from OpenID to OAuth 2.0. Updated Kubernetes (K8s) manifests, secrets, and ingress configurations accordingly. Modified Azure AD settings and redirect URIs to align with the new auth flow, ensuring seamless and secure user authentication under the new architecture.
+
+### Project 7
+
+<!-- RBC -->
+
+Designed and implemented a web app with APIs and deployed to Azure
+
+- Developed and deployed a cloud-native web application to Azure, leveraging modern DevOps practices and microservices architecture.
+- Designed and implemented RESTful APIs using Java, integrating with Azure SQL, Redis, and Docker Compose for local orchestration.
+- Built and automated CI/CD pipelines using Jenkins and shell scripts to deploy application components to Azure Cloud environments.
+- Performed unit and integration testing using Python pytest and automated test execution as part of the deployment pipeline.
 
 ### Project 6
 
@@ -84,6 +134,8 @@ On-Premises Data Platform Migration to Azure HDInsight
   - Optimized data pipelines to ensure efficient data flow and integration between legacy systems and the new Azure-based infrastructure.
   - Ensured data consistency, reliability, and performance through thorough testing and validation post-migration.
   - Collaborated with cross-functional teams to implement best practices and maintain the integrity of critical data throughout the migration process.
+
+## Azure Fuctions
 
 ## [Deploy a Spring Boot app to Azure](Deploy_SpringBoot_2_Azure.md)
 
